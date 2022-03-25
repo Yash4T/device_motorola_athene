@@ -160,10 +160,6 @@ TARGET_LD_SHIM_LIBS := \
     /vendor/lib64/lib-imsvt.so|libshims_ims.so \
     /vendor/lib/hw/camera.msm8952.so|libshims_camera.so
 
-# Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_athene
-TARGET_RECOVERY_DEVICE_MODULES := //$(DEVICE_PATH):libinit_athene
-
 # IPA
 USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
 
