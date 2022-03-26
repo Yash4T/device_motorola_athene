@@ -2,6 +2,8 @@
 type batt_health_data_file, file_type, data_file_type;
 type sysfs_batt_health, fs_type, sysfs_type;
 
+type dsp_file, file_type, contextmount_type, vendor_file_type;
+
 # hw_revs
 type hw_revs_data_file, file_type, data_file_type;
 
