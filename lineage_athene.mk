@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Arrow stuff.
-$(call inherit-product, vendor/lineage/config/common.mk)
+$(call inherit-product, vendor/lineage/config/common_full_go_phone.mk)
 
 # Inherit from athene device
 $(call inherit-product, device/motorola/athene/device.mk)
