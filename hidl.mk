@@ -5,7 +5,9 @@ PRODUCT_PACKAGES += \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
-    libhwbinder.vendor
+    libhwbinder.vendor \
+    android.hidl.manager@1.0 \
+    android.hidl.manager@1.0-java
 
 # Audio
 PRODUCT_PACKAGES += \

@@ -155,7 +155,8 @@ PRODUCT_PACKAGES += \
     gralloc.msm8952 \
     copybit.msm8952 \
     hwcomposer.msm8952 \
-    memtrack.msm8952
+    memtrack.msm8952 \
+    libqdMetaData
 
 # Ebtables
 PRODUCT_PACKAGES += \
