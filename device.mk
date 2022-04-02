@@ -124,6 +124,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbson \
     libshims_camera \
+    libshims_mot_camera \
     Snap
 
 # Codec2 modules
