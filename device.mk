@@ -206,10 +206,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     ims-ext-common_system
 
-# Keystore
-PRODUCT_PACKAGES += \
-    keystore.msm8952
-
 # OEM
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml
@@ -324,7 +320,6 @@ PRODUCT_COPY_FILES += \
 # RIL
 PRODUCT_PACKAGES += \
     libcnefeatureconfig \
-    librmnetctl \
     libxml2
 
 PRODUCT_COPY_FILES += \
