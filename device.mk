@@ -277,10 +277,10 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libstagefright_soft_flacdec
 
-# Perf
-#PRODUCT_BOOT_JARS += \
-#    QPerformance \
-#    UxPerformance
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.0 \
+    android.hardware.power-service-qti
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
