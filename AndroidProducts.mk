@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_athene.mk
+    $(LOCAL_DIR)/twrp_athene.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_athene-eng
+    twrp_athene-eng
